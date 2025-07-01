@@ -1,0 +1,51 @@
+[
+  {
+    "id": "master_001",
+    "name": "Master Hive Alpha",
+    "type": "master",
+    "location": "North Field",
+    "master_id": null
+  },
+  {
+    "id": "worker_001",
+    "name": "Worker Hive 1",
+    "type": "worker",
+    "location": "North Field",
+    "master_id": "master_001"
+  },
+  {
+    "id": "worker_002",
+    "name": "Worker Hive 2",
+    "type": "worker",
+    "location": "North Field",
+    "master_id": "master_001"
+  },
+  {
+    "id": "worker_003",
+    "name": "Worker Hive 3",
+    "type": "worker",
+    "location": "East Field",
+    "master_id": "master_001"
+  },
+  {
+    "id": "master_002",
+    "name": "Master Hive Beta",
+    "type": "master",
+    "location": "South Field",
+    "master_id": null
+  },
+  {
+    "id": "worker_004",
+    "name": "Worker Hive 4",
+    "type": "worker",
+    "location": "South Field",
+    "master_id": "master_002"
+  },
+  {
+    "id": "worker_005",
+    "name": "Worker Hive 5",
+    "type": "worker",
+    "location": "West Field",
+    "master_id": "master_002"
+  }
+]
